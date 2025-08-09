@@ -71,16 +71,16 @@ For Software:
 # Screenshots (Add at least 3)
 
 <img src="./assests/Analog.jpg" alt="Analog clock detection" width="300">
-_Detect time from analog clock_
+*Detect time from analog clock*
 
 <img src="./assests/Digital.jpg" alt="Digital clock detection" width="300">
-_Detect time from digital clock_
+*Detect time from digital clock*
 
 <img src="./assests/Input format.jpg" alt="Image input formats" width="300">
-_Different types of inputs will be provided_
+*Different types of inputs will be provided*
 
 <img src="./assests/About page.jpg" alt="About Page" width="300">
-_About page_
+*About page*
 
 ### Project Demo
 
