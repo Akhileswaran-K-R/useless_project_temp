@@ -70,7 +70,7 @@ For Software:
 
 # Screenshots (Add at least 3)
 
-![Analog clock detection](./assests/Analog.jpg)
+<img src="./assests/Analog.jpg" alt="Analog clock detection" width="300">
 _Add caption explaining what this shows_
 
 ![Digital clock detection](./assests/Digital.jpg)
