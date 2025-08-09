@@ -33,22 +33,22 @@ For Software:
 For Software:
 # Installation
 
-## Clone repo 
-git clone https://github.com/yourusername/clock-time-detector.git  
-cd clock-time-detector/backend  
+### Clone repo 
+git clone https://github.com/Akhileswaran-K-R/useless_project_temp.git  
+cd backend  
 
-## Create virtual env & activate  
+### Create virtual env & activate  
 python -m venv venv  
 source venv/bin/activate
 
-## Install dependencies  
+### Install dependencies  
 pip install -r requirements.txt  
 
 # Run
-## Start backend server  
+### Start backend server  
 gunicorn app:app  
 
-## Run Flutter frontend (in the frontend folder)  
+### Run Flutter frontend (in the frontend folder)  
 flutter run  
 
 ### Project Documentation
