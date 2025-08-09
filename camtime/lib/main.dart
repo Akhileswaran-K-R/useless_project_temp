@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:camtime/frontend/homepage.dart';
-import './frontend/about.dart'; // You'll create this file for your AboutPage
+import './frontend/about.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'UselessProject',
+      title: 'CamBuddy',
       debugShowCheckedModeBanner: false,
       home: const MainScreen(),
     );
@@ -37,12 +37,28 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Center(
-          child: Text(
-            "CamBuddy",
-            style: TextStyle(fontStyle: FontStyle.italic),
+      appBar: PreferredSize(
+        preferredSize: const Size.fromHeight(56),
+        child: AppBar(
+          flexibleSpace: Container(
+            decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                colors: [Color(0xFF2c3e50), Color.fromRGBO(95, 91, 92, 0.176)],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+              ),
+            ),
           ),
+          centerTitle: true,
+          title: const Text(
+            "CamBuddy",
+            style: TextStyle(
+              fontStyle: FontStyle.italic,
+              color: Colors.white,
+            ),
+          ),
+          elevation: 0,
+          backgroundColor: Colors.transparent,
         ),
       ),
       body: IndexedStack(
@@ -50,6 +66,7 @@ class _MainScreenState extends State<MainScreen> {
         children: _pages,
       ),
       bottomNavigationBar: BottomAppBar(
+        color: Colors.white,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
