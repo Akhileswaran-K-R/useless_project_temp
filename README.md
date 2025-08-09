@@ -27,8 +27,6 @@ We use Flask + Gemini API magic to do the heavy lifting and tell you the time fr
 
 ### Technologies/Components Used
 
-For Software:
-
 - Python
 - Flask (backend server)
 - Gemini API (image recognition & time extraction)
@@ -36,58 +34,64 @@ For Software:
 
 ### Implementation
 
-For Software:
-
 # Installation
 
 ### Clone repo
 
+```
 git clone https://github.com/Akhileswaran-K-R/useless_project_temp.git  
 cd backend
+```
 
 ### Create virtual env & activate
 
+```
 python -m venv venv  
 source venv/bin/activate
+```
 
 ### Install dependencies
 
+```
 pip install -r requirements.txt
+```
 
 # Run
 
 ### Start backend server
 
+```
 gunicorn app:app
+```
 
 ### Run Flutter frontend (in the frontend folder)
 
+```
 flutter run
+```
 
 ### Project Documentation
 
-For Software:
+# Screenshots
 
-# Screenshots (Add at least 3)
-
+<p><em>Detect time from analog clock</em></p>
 <img src="./assests/Analog.jpg" alt="Analog clock detection" width="300">
-<em>Detect time from analog clock</em>
 
+<p><em>Detect time from digital clock</em></p>
 <img src="./assests/Digital.jpg" alt="Digital clock detection" width="300">
-<em>Detect time from digital clock</em>
 
+<p><em>Different types of inputs will be provided</em></p>
 <img src="./assests/Input format.jpg" alt="Image input formats" width="300">
-<em>Different types of inputs will be provided</em>
 
+<p><em>About page</em></p>
 <img src="./assests/About page.jpg" alt="About Page" width="300">
-<em>About page</em>
 
 ### Project Demo
 
 # Video
 
-https://drive.google.com/file/d/1fQl3n3K1Y2HF-lQRYHpi-zzu9o_VcIrj/view?usp=drivesdk
-_Explain what the video demonstrates_
+https://drive.google.com/file/d/1fQl3n3K1Y2HF-lQRYHpi-zzu9o_VcIrj/view?usp=drivesdk<br>
+_This video demonstrates our CamBuddy app detecting time from both analog and digital clocks, using photos taken with the camera or selected from the gallery, showing its accuracy and ease of use._
 
 ## Team Contributions
 
