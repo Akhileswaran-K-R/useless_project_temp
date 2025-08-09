@@ -1,47 +1,55 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# CamBuddy 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Nameless
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Abhai Sankar P R - Sree Chitra Thirunal College of Engineering
+- Member 2: Akhileswaran K R - Sree Chitra Thirunal College of Engineering
 
 ### Project Description
-[2-3 lines about what your project does]
+A fun web service that detects and returns the time shown in any uploaded clock image. Users upload a photo of a clock, and the backend extracts the exact time using AI-powered recognition.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Ever tried to tell time by looking at a random photo of a clock? It’s tricky, and your brain might lie to you. Why should humans have all the fun guessing the time?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We use Flask + Gemini API magic to do the heavy lifting and tell you the time from any clock image — no squinting or guessing needed. Plus, the Flutter frontend makes it a smooth, pretty experience on any device!
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Python
+- Flask (backend server)
+- Gemini API (image recognition & time extraction)
+- Flutter (cross-platform frontend app)
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+
+## Clone repo 
+git clone https://github.com/yourusername/clock-time-detector.git  
+cd clock-time-detector/backend  
+
+## Create virtual env & activate  
+python -m venv venv  
+source venv/bin/activate
+
+## Install dependencies  
+pip install -r requirements.txt  
 
 # Run
-[commands]
+## Start backend server  
+gunicorn app:app  
+
+## Run Flutter frontend (in the frontend folder)  
+flutter run  
 
 ### Project Documentation
 For Software:
@@ -56,41 +64,14 @@ For Software:
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
 ### Project Demo
 # Video
 [Add your demo video link here]
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
-
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Abhai Sankar P R: Frontend
+- Akhileswaran K R: Backend
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
